@@ -59,7 +59,7 @@ final class ISOCurrencies implements Currencies
     /**
      * @return \Traversable
      */
-    public function getIterator()
+    public function getIterator(): Traversable
     {
         return new \ArrayIterator(
             array_map(
